@@ -1,5 +1,5 @@
-import PlayStore from "/public/components/Support/PlayStore/playstore.svg"
-import AppStore from '/public/components/Support/PlayStore/appstore.svg';
+import PlayStore from "/components/Support/PlayStore/playstore.svg"
+import AppStore from '/components/Support/PlayStore/appstore.svg';
 
 export default function Support() {
     return (

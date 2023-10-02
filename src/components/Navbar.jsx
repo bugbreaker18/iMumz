@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Logo from '/public/images/logo.png';
-import open from '/public/components/Navbar/open.svg';
-import close from '/public/components/Navbar/close.svg';
+import Logo from '/images/logo.png';
+import open from '/components/Navbar/open.svg';
+import close from '/components/Navbar/close.svg';
 
 export default function Navbar() {
     const [toggle, setToggle] = useState(false);
@@ -102,8 +102,7 @@ export default function Navbar() {
                 {link.map((item, index) => (
                     <a
                         key={index}
-                        className={`text-center cursor-pointer py-2 text-sm tracking-wide select-none hover:text-[#0283F3] ${
-                            item.active
+                        className={`text-center cursor-pointer py-2 text-sm tracking-wide select-none hover:text-[#0283F3] ${item.active
                                 ? 'font-semibold text-[#0283F3]'
                                 : 'text-black'
                         }`}

@@ -7,8 +7,8 @@ export default {
                 sans: ['Nunito', 'sans-serif']
             },
             backgroundImage: {
-                'hero-desktop': 'url("/public/components/Hero/frame.svg")',
-                'hero-mobile': 'url("/public/components/Hero/frame2.svg")',
+                'hero-desktop': 'url("/components/Hero/frame1.svg")',
+                'hero-mobile': 'url("/components/Hero/frame2.svg")',
             },
         },
     },
