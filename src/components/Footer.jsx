@@ -41,7 +41,7 @@ export default function Footer() {
                 {links.map((link, index) => (
                     <a key={index} href="#" className="aspect-square h-5 md:h-6">
                         <img
-                            src={`/public/components/Footer/${link.image}.svg`}
+                            src={`/components/Footer/${link.image}.svg`}
                             alt={link.name}
                             className="text-white"
                         />
